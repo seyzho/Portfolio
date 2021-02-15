@@ -13,12 +13,12 @@ a {
 
 header {
     padding: 20px 35px;
-    background-color: #b3dbff
+    background-color: #c6538c
     
 }
 
 header h1 {
-    font-weight: Bold;
+    font-weight: lighter;
     font-size: 36px;
     color: #000000;
     margin: 0;
@@ -37,4 +37,39 @@ header nav ul li {
 header nav ul li a {
     margin: 0 30px;
     font-size: 24px;
+}
+
+.hero {
+    background-image: url(../images/lain.jpg);
+    height: 300px;
+    width:auto;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+.hero div h2 {
+    color: white;
+    font-size: 36px;
+    float: right;
+}
+
+#about-me {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #c6538c;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-me div {
+    margin: 70px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#about-me div h2 {
+    padding: 60px 40px;
+    border-right: 5px solid black
 }

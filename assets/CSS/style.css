@@ -7,13 +7,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif
 }
+ul {
+    list-style-type: none;
+}
 a {
     color:#000000;
 }
 
 header {
     padding: 20px 35px;
-    background-color: #c6538c
+    background-color: #cc6699;
     
 }
 
@@ -45,7 +48,7 @@ header nav ul li a {
     width:auto;
     background-size: cover;
     background-position: bottom;
-    position: relative;
+    position: ;
 }
 
 .hero div h2 {
@@ -57,7 +60,7 @@ header nav ul li a {
 #about-me {
     display: flex;
     flex-wrap: nowrap;
-    background-color: #c6538c;
+    background-color: #cc6699;
     justify-content: center;
     align-items: center;
 }
@@ -72,4 +75,20 @@ header nav ul li a {
 #about-me div h2 {
     padding: 60px 40px;
     border-right: 5px solid black
+}
+
+.flex-container-work {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #cc6699;
+}
+
+.flex-container-work h2 {
+    display: flex;
+    align-self:flex-start;
+}
+
+.previews {
+    height: 250px;
+    width: 550px;
 }

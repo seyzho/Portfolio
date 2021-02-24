@@ -48,7 +48,6 @@ header nav ul li a {
     width:auto;
     background-size: cover;
     background-position: bottom;
-    position: ;
 }
 
 .hero div h2 {
@@ -73,22 +72,49 @@ header nav ul li a {
 }
 
 #about-me div h2 {
-    padding: 60px 40px;
+    padding: 60px 80px;
     border-right: 5px solid black
+}
+
+#work {
+    background-color: #cc6699
+
+}
+
+#work div h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 400px 50px 400px;
+    font-size: 35px;
+    border-bottom: 5px solid black
 }
 
 .flex-container-work {
     display: flex;
     flex-wrap: wrap;
     background-color: #cc6699;
+    justify-content: space-around;
+    align-items: center;
 }
-
-.flex-container-work h2 {
-    display: flex;
-    align-self:flex-start;
+.titles {
+    font-size: 32px;
+    padding: 10px 250px;
 }
 
 .previews {
-    height: 250px;
-    width: 550px;
+    height: 400px;
+    width: 600px;
+
 }
+
+.surprise {
+    height: 350px;
+    width: 450px;
+    margin: 30px 100px;
+    align-self: flex-end;
+}
+
+#roboglad {
+    margin-left: 140px;
+}
+
